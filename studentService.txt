@@ -1,0 +1,18 @@
+package com.zensar.studentmanagement.service;
+
+import TestApp.StudentApp;
+
+public interface StudentService {
+
+	int insert(int id, int age, String div);
+
+	StudentApp[] display();
+
+	int delete(int id);
+
+	int findWithId(int id);
+
+	int update(int id);
+
+	
+}

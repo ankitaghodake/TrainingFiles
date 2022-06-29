@@ -1,0 +1,53 @@
+package TestApp;
+
+import java.util.Scanner;
+
+public class StudentApp {
+	// StudentApp student=new StudentApp();
+
+	Scanner sc = new Scanner(System.in);
+	public int id;
+	public int age;
+	public String div;
+
+	public StudentApp() {
+
+	}
+
+	public StudentApp(int id, int age, String div) {
+		super();
+		this.id = id;
+		this.age = age;
+		this.div = div;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public String getDiv() {
+		return div;
+	}
+
+	public void setDiv(String div) {
+		this.div = div;
+	}
+
+	@Override
+	public String toString() {
+		return "StudentApp [id=" + id + ", age=" + age + ", div=" + div + "]";
+	}
+
+}

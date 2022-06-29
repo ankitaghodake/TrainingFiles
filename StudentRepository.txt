@@ -1,0 +1,15 @@
+package com.zensar.studentApp.repo;
+
+import TestApp.StudentApp;
+
+public interface StudentRepository {
+	int insert(StudentApp arr);
+
+	StudentApp[] display();
+
+	int delete(int id);
+
+	int findWithId(int id);
+
+	int update(int id);
+}
